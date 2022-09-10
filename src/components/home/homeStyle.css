@@ -1,0 +1,76 @@
+/* ---------------Home Section One CSS-------------------------------------- */
+.HomeSectionOne_main {
+  position: relative;
+  padding-top: 10px;
+}
+
+.HomeSectionOne_vedio {
+  height: 95vh;
+  object-fit: fill;
+}
+
+.HomeSectionOne_content {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  left: 10%;
+  top: 10%;
+  align-items: center;
+  z-index: 1;
+}
+
+.smallImg {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .HomeSectionOne_bg {
+    background-image: url("../../assests/images/Section-2-bg.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+  }
+  .HomeSectionOne_content {
+    position: relative;
+    height: 100%;
+    display: block;
+    align-items: center;
+    z-index: 1;
+  }
+  .smallImg {
+    display: block;
+  }
+}
+@media only screen and (width: 768px) {
+  .SectionOneText {
+    width: 320px;
+  }
+  .MainHeading {
+    font-size: 38px;
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 2460px) {
+  .MainHeading {
+    font-size: 60px;
+  }
+  .SectionOneText {
+    font-size: 30px;
+    line-height: 10px;
+    line-height: 42px;
+    
+  }
+  
+  .welcomeBorder {
+    width: 450px;
+  }
+  .welcome {
+    font-size: 28px;
+  }
+  .homeSectionOneBtn {
+    font-size: 28px;
+    margin-top: 20px;
+    
+  }
+}

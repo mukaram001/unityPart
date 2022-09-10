@@ -1,0 +1,248 @@
+.btnStylish {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border: 0;
+  outline: 0;
+  color: #ffff;
+  padding: 6px;
+  padding-left: 7px;
+  min-width: 138px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.btnStyle {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  font-family: "Poppins";
+}
+.btnStyles {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  font-family: "Poppins";
+}
+.bilderAllMain {
+  background-color: #1f1541;
+  padding-top: 50px;
+}
+.underLine {
+  color: rgb(121,95,171);
+}
+.builderall_numberbtn {
+  border: 0;
+  outline: 0;
+  /* min-width: 138px; */
+  width: 100%;
+  border-radius: 3px;
+  font-family: 'Poppins';
+  color: #ffff;
+  padding: 6px;
+  background-color: #241a46;
+  padding-left: 7px;
+}
+.builderall_btns {
+  border: 0;
+  outline: 0;
+  color: #AEA5BC;;
+  font-family: 'Poppins';
+  background-color: transparent;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 6px;
+  padding-left: 7px;
+  /* min-width: 138px; */
+width: 100%;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+.dropDownMain a {
+  color: #fff !important;
+}
+.dropDownMain a:hover {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  /* padding: 6px; */
+}
+
+.dropDownMain .dropdown-menu {
+  background: transparent;
+  border: 0;
+}
+
+.collection_item {
+  text-decoration: none;
+}
+
+.builderall_btns:hover {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  color: #fff;
+}
+/* ----------------Name Details-------------------- */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.detailbtns {
+  padding: 13px 32px;
+  border-radius: 6px;
+  background-color: #8a8a8a;
+  outline: 0;
+  border: 0;
+  margin-left: 5px;
+}
+.detailbtntwo {
+  padding: 13px 32px;
+  border-radius: 6px;
+  background-color: #ff2d55;
+  outline: 0;
+  border: 0;
+  margin-left: 5px;
+}
+.detailbtnsLink {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.detailbtnstylish {
+  padding: 13px 32px;
+  border-radius: 6px;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  outline: 0;
+  border: 0;
+  margin-left: 5px;
+}
+.detailbtnsLink:hover {
+  color: #fff;
+}
+.backIcon {
+  color: #f5f5f5;
+  font-size: 34px;
+  padding: 10px 0 0 10px;
+}
+.detailHeading {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+}
+.backIconLink {
+  color: #f5f5f5;
+  background-color: #545680;
+  border-radius: 4px;
+  font-size: 48px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.backIconLink:hover {
+  color: #ff2d55;
+}
+.detailText {
+  color: #fff;
+  text-align: justify;
+}
+.detailInput {
+  border: none;
+  outline: 0;
+  border-radius: 3px;
+  width: 100%;
+  background: #ffff;
+}
+.detailInput input {
+  color: #8a8a8a !important;
+  padding: 9px 0 9px 10px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  border-bottom: none !important;
+}
+.detaillabel {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8a8a8a;
+  padding-bottom: 5px;
+}
+.detailInput:focus {
+  border: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(170, 170, 170);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ff2d55;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff2d55;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+.idle {
+  background-color: #473b76 !important;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.idle:hover {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%) !important;
+}
+.AtlasSize {
+  min-height: 60vh;
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+display: none;
+}
+.name-large-text {
+  font-size: 28px;
+  color: #fff;
+}
+.name-small-text {
+  color: #8a8a8a;
+  text-align: center;
+  text-transform: lowercase;
+}

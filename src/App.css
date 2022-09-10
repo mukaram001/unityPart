@@ -1,0 +1,20 @@
+.nftbg {
+  /* #201741
+  #331e55 
+  #49336b*/
+  background-color: #B1B3B7;
+  /* height: 100vh; */
+  text-align: center;
+}
+.nftbgBuilder {
+  background-color: #5e3b80;
+  height: 100%;
+  text-align: center;
+}
+
+@media (max-width: 769px) {
+  .welcomeBorder {
+    /* margin: auto; */
+  }
+  
+}

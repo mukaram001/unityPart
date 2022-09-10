@@ -1,0 +1,479 @@
+@import 'https://fonts.googleapis.com/css?family=Rajdhani';
+.btnBackground {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+}
+/* https://fonts.googleapis.com/css?family=Rajdhani */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Rajdhani'), url('https://fonts.googleapis.com/css?family=Rajdhani') format('woff');
+}
+/* --------------------Section One CSS----------------------------------------------------- */
+.HomeSectionMain {
+  min-height: 520px;
+  height: 100vh;
+  /* min-width: 1080px; */
+  position: relative;
+}
+.SectionOneVedio {
+  /* width: 100%; */
+  /* height: 100%; */
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  animation-play-state: running;
+}
+.HomeTextMain {
+  padding-top: 15%;
+}
+.welcome {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.32em;
+  color: #ddd5d5;
+}
+.MainHeading {
+  text-transform: uppercase;
+  font-family: 'Rajdhani';
+  /* font-weight: 600; */
+  font-size: 60px;
+  color: #ffffff;
+}
+.SectionOneText {
+ 
+  line-height: 28px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  color: rgb(234, 232, 232);
+}
+.HomeSectionOneCharacter {
+  position: relative;
+  background-image: url("../../../assets/imagesNew/iland.png");
+}
+.characterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 114px 27px 127px;
+  height: 420px;
+  margin: 10px;
+  background: rgba(57, 32, 92, 0.69);
+  border: 1px solid #795fab;
+  backdrop-filter: blur(24px);
+  border-radius: 30px;
+}
+.island {
+  top: 80px;
+  position: absolute;
+}
+.charactersMain {
+  left: 160px;
+  top: 30px;
+  position: absolute;
+}
+.islandImg {
+  height: 350px;
+}
+.characters {
+  height: 350px;
+  padding-top: 10px;
+}
+.characterName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  outline: 0;
+  font-size: 30px;
+  line-height: 45px;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.homeSectionOneBtn {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 7px;
+  padding: 9px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  outline: 0;
+}
+.homeSectionOneBtn:hover {
+  background: #b445a3;
+}
+.Links {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Links:hover {
+  color: #ffffff;
+}
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.floatingOne {
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floatingOne {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -0px);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}
+/* -----------------------Section Two CSS---------------------------------------- */
+.HomeSectionTwoMain {
+  background-image: url("../../../assets/imagesNew/Bg-Vedio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background: linear-gradient(113.59deg, #2d1e54 26.56%, #181532 78.37%); */
+  min-height: 500px;
+  width: 100%;
+  padding-top: 2%;
+}
+.HomeSectionTwoHeading {
+  /* font-family: "Poppins"; */
+  /* font-style: normal; */
+  font-weight: 650;
+  font-size: 40px;
+  color: #ffffff;
+}
+.HomeSectionVedio {
+  /* width: 100%; */
+  height: 400px;
+  position: relative;
+  top: 4px;
+  right: 7px;
+  border-radius: 35px;
+}
+/* -------------------Section three CSS--------------------------------------------------- */
+.HomeSectionThreeMain {
+  background-image: url("../../../assets/imagesNew/Section-2-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+  width: 100%;
+}
+.HomeSectionthree {
+  display: flex;
+  align-items: center;
+}
+.homeSubHeading {
+  font-size: 36px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 50px;
+}
+/* ----------------Section Four CSS------------------------------------------------- */
+.HomeSectionFourMain {
+  background-image: url("../../../assets/imagesNew/Section-3-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+  width: 100%;
+}
+/* -------------------Section Six-----------------------------------------  */
+.HomeSectionSixMain {
+  padding-top: 5%;
+  min-height: 580px;
+  padding-bottom: 2%;
+  width: 100%;
+  color: #9782b9;
+}
+
+/* --------------------------Section Seven--------------------------- */
+.HomeSectionSevenMain {
+  width: 100%;
+  background: #2b1a47;
+}
+.sectionSevenPic {
+  height: 320px;
+  margin-top: 11%;
+  margin-right: 3%;
+}
+.SevenImg {
+  text-align: end;
+}
+/* ---------------------------Section Seven---------------------------- */
+.latestUpdateMain {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 30px;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+}
+.updateHeading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 134.5%;
+  color: #ffffff;
+}
+.update_text {
+  color: #ffffff;
+}
+.update_Input {
+  min-width: 480px;
+  outline: 0;
+  border: 0;
+  padding-left: 16px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.updateBtn {
+  background: linear-gradient(113.59deg, #2d1e54 26.56%, #181532 78.37%);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 11px 32px;
+  outline: 0;
+  border: 0;
+}
+.About_Heading {
+  font-size: 20px;
+  letter-spacing: 0.32em;
+  color: #aea5bc;
+}
+/* ---------------------section Nine------------------------------ */
+.HomeSectionNineMain {
+  /* background: #191437; */
+  padding-top: 3%;
+  min-height: 580px;
+  padding-bottom: 15%;
+  width: 100%;
+  color: #9782b9;
+}
+.boxShadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+}
+.Blog_Heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3a3656;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blogImgBtn {
+  background: #795fab;
+  border-radius: 7px;
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #ffffff;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-align: center;
+}
+.blogImgBtn_Link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Blog_Cards_Main {
+  padding: 30px 60px;
+}
+.BlogTextHead {
+  color: black;
+}
+.Blog_SubText {
+  color: #666161;
+  font-size: 14px;
+}
+/* --------------------------Icon Slider CSS------------------------------------------ */
+.iconSlideImg {
+  /* height: 120px; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+.IconSliderMain {
+  /* height: 120px; */
+}
+.carousel-control-prev-icon {
+  background-color: #2b1a47 !important;
+  border-radius: 0 !important;
+  margin-left: 10px;
+}
+.carousel-control-next-icon {
+  background-color: #2b1a47 !important;
+  border-radius: 0 !important;
+  margin-right: 10px;
+}
+.carousel-control-prev {
+  display: none;
+}
+.carousel-indicators {
+  /* display: none; */
+  /* top: 10px; */
+  /* background-color: gray; */
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+
+
+.carousel-control-next {
+  display: none;
+}
+
+/* -----------------------Section Six CSS---------------------------------- */
+.SectionTwoCards_Main {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+}
+.SectionTwoCards_Main:hover {
+  opacity: 3;
+  backdrop-filter: blur(5px);
+}
+.SectionTwoCards_Main * {
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.SectionTwoCards_Main:before {
+  position: absolute;
+  top: 10px;
+  /* bottom: 10px; */
+  left: 10px;
+  /* right: 10px; */
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  content: "";
+  opacity: 28;
+  /* background-color: rgb(158, 138, 196); */
+  /* background-color: rgba(145, 122, 149, 0.9); */
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.SectionTwoCards_Main img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.SectionTwoCards_Main figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SectionTwoCards_Main h3,
+.SectionTwoCards_Main h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.SectionTwoCards_Main h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  color: #b445a3;
+  font-size: 22px;
+  font-weight: 600;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  /* margin-bottom: 5px; */
+}
+.SectionTwoCards_Main h5 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  /* background-color: #ae895d; */
+  padding: 6px 20px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.SectionTwoCards_Main a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.SectionTwoCards_Main:hover:before,
+.SectionTwoCards_Main.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.SectionTwoCards_Main:hover h3,
+.SectionTwoCards_Main.hover h3,
+.SectionTwoCards_Main:hover h5,
+.SectionTwoCards_Main.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.SectionTwoCards_Main:hover h3,
+.SectionTwoCards_Main.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.SectionTwoCards_Main:hover h5,
+.SectionTwoCards_Main.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* ------------------------------------------------------------------ */
+
+.speed {
+  position: relative;
+  display: none;
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease linear;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+  /* -webkit-transition: 0.8s ease-in-out left;
+  -moz-transition: 0.8s ease-in-out left;
+  -o-transition: 0.9s ease-in-out left;
+  transition: 0.9s ease-in-out left; */
+}

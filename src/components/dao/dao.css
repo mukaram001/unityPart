@@ -1,0 +1,211 @@
+/* @import "../../sharedComponents/FontFamily.scss"; */
+
+/* -----------------Section One------------------------------ */
+.DAOSectionOneMain {
+  background-color: #241a46;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.mainText {
+  font-family: font-family;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+}
+.subtitle {
+  font-family: font-family;
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif; */
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+}
+/* ------------------------------------------------ */
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.title {
+  font-family: font-family;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.81;
+  letter-spacing: 0.3px;
+}
+
+/* ------------------------------------------------------------------ */
+.sectionOneDAObtn {
+  text-transform: uppercase;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  width: 235px;
+  border: 0;
+  color: #ffff;
+  font-weight: 600;
+  margin-top: 6px;
+  /* font-family: font-family; */
+  outline: none;
+  font-size: 18px;
+  min-width: 128px;
+  letter-spacing: 1px;
+  padding: 14px 32px;
+  border-radius: 6px;
+}
+.btnstylish {
+  background-color: #ff2d55;
+  color: #fff;
+}
+/* --------------------Section Two--------------------------- */
+.DAOSectionTwoMain {
+  min-height: 550px;
+  padding-top: 5%;
+}
+.sectionTwopicDao {
+  width: 100%;
+  height: 100%;
+}
+.DAOTextHeading {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.17;
+  font-family: font-family;
+}
+.DAOSubText {
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.81;
+  letter-spacing: 0.3px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* ---------------------------section five----------------- */
+.DAOSectionFiveMain {
+  height: auto;
+  padding-top: 5%;
+}
+
+.sectionfivepicDao {
+  width: 200px;
+  height: 200px;
+}
+.DAOSectionText {
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.3px;
+}
+.pinkText {
+  color: #a946a3;
+  font-weight: 500;
+}
+li::marker {
+  color: #a946a3;
+  font-size: 25px;
+}
+/* ----------------Section Six--------------------------------- */
+.DAOSectionSixMain {
+  background-color: #f3f2f5;
+  min-height: 600px;
+}
+.DAOSectionSixMainText {
+  border: 1px solid rgba(115, 110, 125, 0.32);
+  border-radius: 12px;
+}
+.DAOSectionSixSubText {
+  font-size: 17px;
+  color: #16141a;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.81;
+  letter-spacing: 0.3px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.DAOSecSixLastMain {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sectionSixDAObtn {
+  text-transform: uppercase;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border: 0;
+  color: #fff;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 128px;
+  padding: 14px 32px;
+  border-radius: 6px;
+}
+@media only screen and (max-width: 480px) {
+  .DAOSectionText,
+  .DAOTextHeading,
+  .DAOSubText,
+  .DAOSectionSixSubText,
+  .mainText {
+    text-align: center;
+  }
+}

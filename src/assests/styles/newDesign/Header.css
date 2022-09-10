@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.75rem 2.625rem;
+    gap: 3.938rem;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #331E55;   
+    box-shadow: 0px 4px 40px rgba(24, 21, 50, 0.2);
+}
+
+.header .ideology{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #FFFF;
+
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.7rem;
+  }
+  
+  .header ul li {
+    float: left;
+    display: block;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .header ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+.header .active{
+    font-weight: 600;
+    background: linear-gradient(263.2deg, #B445A3 -4.72%, #464A9B 94.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header .profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header .profile img{
+    width: 100%;
+}
+
+.modal .modal-dialog .modal-content{
+    border-radius: 20px !important;
+}
+
+.ModalLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8rem 3.3rem;
+    gap: 2rem;
+    width: 100%;
+    background: #241A46;
+    border: 2px solid #795FAB;
+    border-radius: 20px;
+}
+.ModalLayout img{
+    width: 50%;
+}
+.ModalLayout .ModalLayout-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ModalLayout .ModalLayout-description h4{
+  color: #FFFF;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+.ModalLayout .ModalLayout-description p{
+    color: #FFFF;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .SideBar{
+    width: 100%;
+  }
+  .SideBar .active{
+    background: linear-gradient(263.2deg, #B445A3 -4.72%, #464A9B 94.44%);
+    border-radius: 7px;
+  }
+  .SideBar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+  }
+  .SideBar ul li{
+    cursor: pointer;
+    padding: 0.7rem 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+   
+  }
+  .SideBar ul li a{
+    color: white;
+    text-decoration: none;
+  }

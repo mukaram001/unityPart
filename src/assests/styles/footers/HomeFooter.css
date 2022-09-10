@@ -1,0 +1,122 @@
+/* .footerMain {
+    background: #0c021b;
+    text-align: center;
+    min-height: 300px;
+    padding-top: 5%;
+  }
+  .footerItems {
+    list-style-type: none;
+  }
+  .footerItems_links {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #aea5bc;
+  }
+  .footerItems_links:hover {
+    color: #ffff;
+  }
+  */
+   .top_padding {
+    padding-top: 10%;
+  } 
+  /* ----------------------------------------------------------------- */
+  .footersect{
+    width: 100%;
+    /* background-image: url('../../images/footer-img.png'); */
+    background-image: url('../../images/Footer-Bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #231E41;
+  }
+  .footer_heading {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .footer_list_item {
+    color: #ffff;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .footer_Item_border {
+    border-bottom: 2px dotted #795FAB;
+    padding-bottom: 2px;
+    max-width: 150px;
+  }
+  .spacing_footer{
+    padding-bottom: 5px;
+  }
+  .footer_Item_border:hover {
+    border-bottom: 2px solid #795FAB;
+    padding-left: 3px;
+  }
+  .footer_icons{
+    color: #ffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  .footer_icons:hover{
+    color: #AB46A3;
+  }
+  .footer_cc{
+    color: #ffff;
+    letter-spacing: 2px;
+  }
+  #homefooterul{
+    margin-left: 0;
+    padding-left: 0%;
+  }
+  #homefootersect{
+    margin-top: 130px;
+  }
+  @media only screen and (max-width: 600px){
+    #homefootersect{
+      margin-top: 30px;
+    }
+    .latestUpdateMain{
+      padding: 20px 10px;
+    }
+    .update_Input{
+      min-width: 10%;
+    }
+    .updateHeading{
+      font-size: 30px;
+    }
+    #footerlinkssect{
+      flex-direction: column;
+      align-items: center;
+    }
+    #ideologysect{
+      padding-left: 0% !important;
+      text-align: center;
+    }
+    .footer_heading{
+      text-align: center;
+    }
+    #homefootersect ul{
+      padding-left: 0%;
+    }
+    #homefootersect ul li{
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    #homefootersect{
+      margin-top: 150px;
+    }
+  .responsiveness{
+    display: flex;
+    justify-content: space-around;
+  }
+  .spacing_footer{
+    padding-left: 10px;
+  }
+  .footer_list_item{
+    padding-left: 20px;
+  }
+  }

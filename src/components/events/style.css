@@ -1,0 +1,336 @@
+.EventCarusalMain {
+  background: #241a46;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.submitbtn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 0;
+  outline: 0;
+}
+.EventInput {
+  background: rgba(57, 32, 92, 0.69);
+  padding: 5px 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: #aea5bc;
+  font-size: 16px;
+}
+.eventCarsualbg {
+  background: rgba(64, 40, 97, 0.69);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+}
+.EventsCarosal_Img {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.EventCarsualDate {
+  font-size: 22px;
+  font-weight: 700;
+}
+.eventcarsualheading {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.eventcarsualtext {
+  color: #aea5bc;
+}
+.eventcarsualday {
+  color: #aea5bc;
+  font-size: 12px;
+}
+/* --------------Trending--------------------------------- */
+.TrendingMain {
+  background: #191437;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.eventMainHeading {
+  color: #ffff;
+  font-size: 26px;
+  font-weight: 600;
+}
+.trending_card_Main {
+  cursor: pointer;
+  border-radius: 10px;
+  background: rgba(57, 32, 92, 0.69);
+}
+.trendingCardImg {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.trend_img_no {
+  position: absolute;
+  color: white;
+  background-color: #795fab;
+  border-radius: 5px;
+}
+.t_c {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.trend_date {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 5% 5% 0 8%;
+}
+.trend_text {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 5% 0 8%;
+}
+.trend_btn {
+  text-align: end;
+  padding: 2px 5% 0 8%;
+}
+.trend_btn_inner {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  color: #ffff;
+  font-size: 12px;
+  padding: 6px 12px;
+}
+/* ----------------------------Events Section Three CSS--------------------------- */
+.EventSectionThree_Main {
+  background: #191437;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  /* height: 100vh; */
+}
+.EventsSectionThree_Img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.ventsSectionThree_CardText {
+  background: rgba(57, 32, 92, 0.69);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.EventCard_Now {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.EventCard_text {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.EventCard_no {
+  color: white;
+}
+.EventCard_btn1 {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border: 0;
+  outline: 0;
+  width: 85%;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+.EventCard_btn2 {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  outline: 0;
+  border-radius: 5px;
+
+  background: transparent;
+  width: 10%;
+}
+.EventBtn1_link {
+  text-decoration: none;
+  color: #ffff;
+}
+.EventBtn1_link:hover {
+  color: #ffff;
+}
+.EventBtn2_link {
+  text-decoration: none;
+  color: gray;
+}
+.EventBtn2_link:hover {
+  color: gray;
+}
+.eventCard_img_no {
+  position: absolute;
+  color: white;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+.eventCard_img_no span {
+  font-size: 20px;
+}
+.Imgno_Link {
+  text-decoration: none;
+  color: white;
+}
+.Imgno_Link:hover {
+  color: white;
+}
+.readMore {
+  cursor: pointer;
+  text-align: center;
+}
+/* ------------------------------- */
+.EventType_Main {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.allEventsMain {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.AllEvents {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+}
+.AllEvents_link {
+  color: #ffff;
+  text-decoration: none;
+}
+.AllEvents_link:hover {
+  color: #ffff;
+}
+.AllEvents_text_Main {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-size: 15px;
+  color: #aea5bc;
+}
+.AllEvents_text {
+  background: rgba(57, 32, 92, 0.69);
+}
+.inputRange {
+  background: linear-gradient(
+    to right,
+    #464a9b 0%,
+    #464a9b 50%,
+    #fff 50%,
+    #fff 100%
+  );
+
+  border-radius: 8px;
+  height: 10px;
+  width: 180px;
+  outline: none;
+  /* transition: background 450ms ease-in; */
+  -webkit-appearance: none;
+}
+
+/* --------------------------Card Detail------------------------------------ */
+.EventCardDetailMain {
+  padding-top: 120px;
+  background: #241a46;
+  padding-bottom: 50px;
+}
+.EventCardDetail_img {
+  width: 100%;
+  /* height: 50%; */
+  border-radius: 10px;
+}
+.ECD_heading {
+  color: #b445a3;
+  font-size: 18px;
+  font-weight: 600;
+}
+.ECD_text {
+  color: #aea5bc;
+  font-size: 16px;
+}
+.ECD_Card {
+  border: 1px solid #aea5bc;
+  border-radius: 10px;
+  background: #321e56;
+}
+
+.ECD_date {
+  font-size: 34px;
+}
+.ECD_TextMain {
+  background-color: #321e56;
+}
+.ECD_backbtn {
+  text-align: end;
+}
+.ECD_backbtn_inner {
+  background: transparent;
+  border: 1px solid #aea5bc;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 36px;
+  padding-bottom: 7px;
+}
+.ECD_backbtn_innerLink {
+  text-decoration: none;
+  color: #aea5bc;
+}
+.ECD_backbtn_innerLink:hover {
+  color: #aea5bc;
+}
+.ECD_live{
+    color: white;
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+.avatars{
+    max-width: 80%;
+    overflow-x: auto;
+   
+}
+/* -----------------Wallet------------------ */
+.GetStartedWalletAMain{
+    background: #321E56;
+    padding-top: 120px;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+/* ------------------media Query-------------------- */
+@media (max-width: 770px) {
+  .eventCarsualbg {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .EventsCarosal_Img {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .ECD_backbtn {
+    text-align: start;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 530px) {
+ .submitbtn {
+    width: 80%;
+    margin-top: 2%;
+  }
+}

@@ -1,0 +1,93 @@
+.HomeNavMain {
+    /* background: #39205C; */
+    background: rgba(57, 32, 92, 0.69);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    z-index: 1;
+  }
+  .navBarItems {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    margin: 15px;
+  }
+  .navBarItems:hover{
+      color: #FFFFFF;
+      font-weight: 500;
+  }
+  .headermain{
+    background-color: #331e55  !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  background: linear-gradient(263.2deg, #B445A3 -4.72%, #464A9B 94.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+.navbar{
+  padding: 1rem 0;
+}
+.headermain .navbar-nav   .navtext{
+  font-size: 18px;
+  color: white;
+  font-family: 'Poppins';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0px 20px;
+  /* line-height: 0; */
+}
+
+.navColorChange{
+  font-size: 18px;
+  color: #B445A3;
+  font-weight: 600 ;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0px 20px;
+  line-height: 1;
+}
+.navColorChange:hover{
+  color: #B445A3;
+}
+.headermain .navbar-nav .navtext:hover{
+  color: #B445A3;
+}
+.btn-primary{
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%) !important;
+  border: none;
+} 
+.Headerhm .navbar-expand-lg .navbar-nav .navtext{
+  padding: 0px 20px !important;
+}
+.headermain .navbar-collapse{
+  flex-grow: 0;
+}
+.headermain .navBrand{
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: white;
+}
+.headermain .navBrand:hover{
+color:#B445A3;
+}
+.ExploLink{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.ExploLink:hover{
+  color: #FFFFFF;
+}
+
+@media (max-width:769px) {
+  .headermain .navbar-nav .navtext{
+    padding: 10px 20px;
+  }
+}

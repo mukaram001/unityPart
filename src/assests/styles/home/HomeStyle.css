@@ -1,0 +1,711 @@
+@import "https://fonts.googleapis.com/css?family=Rajdhani";
+@import "https://fonts.googleapis.com/css?family=Josefin Sans";
+.btnBackground {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+}
+
+/* --------------------Section One CSS----------------------------------------------------- */
+.HomeSectionMain {
+  min-height: 520px;
+  /* height: 100vh; */
+  position: relative;
+}
+
+.SectionOneVedio {
+  object-fit: cover;
+  height: 95vh;
+  width: 100%;
+}
+.HomeTextMain {
+  /* position: absolute; */
+}
+.welcome {
+  font-weight: 400;
+  /* font-family: "Tauri"; */
+  font-size: 20px;
+  letter-spacing: 0.65em;
+  color: #ffff;
+}
+.MainHeading {
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-size: 60px;
+  color: #ffffff;
+  /* font-weight: 600; */
+}
+.welcomeBorder {
+  background: linear-gradient(274.8deg, #484466 44.9%, #585281 70.56%);
+  border-radius: 5px;
+  /* padding: 8px 24px; */
+  max-width: 324px;
+  padding: 10px;
+  text-align: center;
+  min-height: 45px;
+}
+.SectionOneText {
+  line-height: 28px;
+  font-family: "Tauri";
+  font-size: 17px;
+  color: #aea5bc;
+}
+
+.homeSectionOneBtn {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 7px;
+  padding: 15px 36px;
+  /* font-weight: 500; */
+  /* font-family: Poppins; */
+  font-size: 20px;
+  color: #ffffff;
+  border: 0;
+  outline: 0;
+}
+.homeSectionOneBtn:hover {
+  background: #b445a3;
+}
+.Links {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Links:hover {
+  color: #ffffff;
+}
+
+/* -----------------------Section Two CSS---------------------------------------- */
+.HomeSectionTwoMain {
+  /* background-image: url("../../images/Bg-Vedio.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  min-height: 550px;
+  position: relative;
+  width: 100%;
+  /* padding-top: 2%; */
+}
+.HomeSectionTwoHeading {
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Rajdhani";
+}
+.HomeSectionVedio {
+  height: 400px;
+  position: relative;
+  top: 4px;
+  right: 7px;
+  border-radius: 35px;
+}
+.ExploreBorder {
+  background: linear-gradient(274.8deg, #484466 44.9%, #585281 70.56%);
+  border-radius: 5px;
+  padding: 6px;
+  width: 220px;
+  text-align: center;
+}
+.freelnace-exploreborder{
+  font-size: 16px;
+}
+/* -------------------Section three CSS--------------------------------------------------- */
+.HomeSectionThreeMain {
+  background-image: url("../../images/Section-2-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+  width: 100%;
+}
+.HomeSectionthree {
+  display: flex;
+  align-items: center;
+}
+.createBorder {
+  background: linear-gradient(274.8deg, #484466 44.9%, #585281 70.56%);
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+  width: 200px;
+}
+.homeSubHeading {
+  font-size: 36px;
+  font-family: "Rajdhani";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 50px;
+  max-width: 90%;
+}
+/* ----------------Section Four CSS------------------------------------------------- */
+.HomeSectionFourMain {
+  background-image: url("../../images/Section-3-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+  width: 100%;
+}
+/* -----------------------Section Five----------------------- */
+.HomeSectionFiveMain {
+  background-image: url("../../images/Bg-Vedio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 550px;
+  width: 100%;
+  padding-top: 2%;
+}
+/* -------------------Section Six-----------------------------------------  */
+.HomeSectionSixMain {
+  padding-top: 5%;
+  min-height: 580px;
+  padding-bottom: 2%;
+  width: 100%;
+  color: #9782b9;
+}
+.slick-dots li button:before {
+  font-size: 15px !important;
+  color: #2b1a47 !important;
+}
+/* --------------------------Section Seven--------------------------- */
+.HomeSectionSevenMain {
+  width: 100%;
+  background: #2b1a47;
+  border-radius: 15px;
+}
+.sectionSevenPic {
+  width: 90%;
+  height: 380px;
+  margin-top: 5%;
+}
+/* ---------------------------Section Seven---------------------------- */
+.latestUpdateMain {
+  background: linear-gradient(263.2deg, #b445a3 -4.72%, #464a9b 94.44%);
+  border-radius: 30px;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+}
+.updateHeading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 134.5%;
+  color: #ffffff;
+}
+.update_text {
+  color: #ffffff;
+}
+.update_Input {
+  min-width: 480px;
+  outline: 0;
+  border: 0;
+  padding-left: 16px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.updateBtn {
+  background: linear-gradient(113.59deg, #2d1e54 26.56%, #181532 78.37%);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 11px 32px;
+  outline: 0;
+  border: 0;
+}
+.About_Heading {
+  font-size: 20px;
+  background: linear-gradient(274.8deg, #484466 44.9%, #585281 70.56%);
+  border-radius: 5px;
+  padding: 7px;
+  width: 380px;
+  text-align: center;
+}
+/* ---------------------section Nine------------------------------ */
+.HomeSectionNineMain {
+  /* background: #191437; */
+  padding-top: 5%;
+  min-height: 250px;
+  padding-bottom: 5%;
+  font-size: 18px;
+  width: 100%;
+  color: #9782b9;
+}
+.boxShadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Blog_Heading {
+  font-size: 50px;
+  font-weight: 700;
+  color: #241a46;
+  font-family: "Rajdhani";
+}
+.blogImgBtn {
+  background: #795fab;
+  border-radius: 7px;
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #ffffff;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-align: center;
+}
+.blogImgBtn_Link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Blog_Cards_Main {
+  padding: 30px 60px;
+}
+.BlogTextHead {
+  color: black;
+}
+.Blog_SubText {
+  color: #666161;
+  font-size: 14px;
+}
+/* --------------------------Icon Slider CSS------------------------------------------ */
+.IconSliderMain {
+  background-color: #241a46;
+  height: 115px;
+}
+.hoverEffect {
+  cursor: pointer;
+
+}
+.hoverEffect:hover {
+  position: relative;
+  top: -5px;
+}
+.carousel-control-prev-icon {
+  background-color: #2b1a47 !important;
+  border-radius: 0 !important;
+  margin-left: 10px;
+}
+.carousel-control-next-icon {
+  background-color: #2b1a47 !important;
+  border-radius: 0 !important;
+  margin-right: 10px;
+}
+.carousel-control-prev {
+  display: none;
+}
+.carousel-indicators {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.carousel-control-next {
+  display: none;
+}
+
+/* -----------------------Section Six CSS---------------------------------- */
+
+.card_Main {
+  position: relative;
+  /* width: 50%; */
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.card_Main:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+.card_Main:hover .card_text {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(36, 26, 70, 0.8);
+  width: 50%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  transition: transform 0.4s ease 0s;
+}
+.card_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.overlay .text_hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+/* -------------------------------------------------------------- */
+
+.speed {
+  position: relative;
+  display: none;
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease linear;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+@media only screen and (width: 768px) {
+  .smallImg {
+    display: none;
+  }
+  .tabletSet{
+    margin-top: -10%;
+  }
+  .top_padding {
+    padding-top: 15% !important;
+}
+
+  .homesectthreetextarea {
+    padding-left: 2%;
+    top: 7%;
+  }
+  .SectionOneVedio {
+    object-fit: fill;
+  }
+  #homesectcontainer {
+    top: 12% !important;
+}
+}
+@media only screen and (min-width: 2460px) {
+  .SectionOneVedio {
+    object-fit: fill;
+    height: 81vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .modal__bg iframe {
+    max-width: 80%;
+  }
+  .navbar-toggler svg {
+    color: white !important;
+  }
+  .videothumbnail img {
+    width: 90% !important;
+    margin-top: -50px;
+  }
+  #homesectleftone,
+  #homesectleftfour {
+    display: block !important;
+  }
+
+  .HomeSectionOne_content{
+    padding-top: 120px ;
+  }
+
+  .homeSectOneImg{
+    display: block !important;
+    
+  }
+  .sectmobileimg {
+    display: block !important;
+    width: 100%;
+  }
+  .videosect {
+    display: none !important;
+    padding-top: 100px !important;
+  }
+  .homesectthreetextarea {
+    top: 20% !important;
+  }
+  #homesectcontainers {
+    top: 2.5% !important;
+  }
+  .homevidesct {
+    height: 850px !important;
+    background-image: url("../../images/Section-2-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #homesectcontainer {
+    top: 2.5% !important;
+  }
+  #homesectone,
+  #homesectcontainer,
+  #homsectthree,
+  #homesectfour {
+    padding: 0%;
+    text-align: center;
+  }
+  #homesectfive {
+    padding: 15px 0;
+  }
+  .MainHeading {
+    font-size: 42px;
+    /* text-align: center; */
+  }
+  /* .welcomeBorder, */
+  .ExploreBorder,
+  .createBorder {
+    /* margin: auto; */
+  }
+  #homesectfivetext {
+    margin: 10px 0;
+  }
+  #homesectone {
+    margin-top: 20px;
+  }
+  .homeSubHeading {
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 25px;
+    max-width: 100% !important;
+  }
+  .SectionOneText {
+    /* margin: auto; */
+    /* text-align: center; */
+    padding: 0 30px 0 0;
+    /* width: 100% !important; */
+  }
+  #homesecttwocontainer {
+    padding: 0% !important;
+    text-align: center;
+  }
+  #homesectfiveiframe {
+    max-height: 350px;
+  }
+  #homesectsixtext,
+  #homesectninetext {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Blog_Heading {
+    font-size: 36px;
+    padding: 0 25px;
+  }
+  #homesectsiximg {
+    width: 100% !important;
+  }
+  .About_Heading {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+  #homesectseven {
+    padding: 60px 30px 20px 30px !important;
+  }
+  #homesectsevenbutton {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sectionSevenPic {
+    width: 100%;
+  }
+  #homesectnineimg {
+    width: 100%;
+  }
+  .Blog_Cards_Main {
+    padding: 60px 0;
+  }
+  .homesectoneleft {
+    padding-left: 0% !important;
+  }
+  .homsecttworight {
+    padding-left: 0%;
+  }
+  .homesectthreetextarea {
+    padding-left: 0% !important;
+  }
+  #imgsectf {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sectionSevenPic {
+    width: 90%;
+    height: 380px;
+    margin-top: 6%;
+  }
+  .setTextBody{
+    margin-top: -7%;
+  }
+}
+@media screen and (min-width: 995px) {
+  .sectionSevenPic {
+    width: 96%;
+    height: 400px;
+    margin-top: 0rem;
+  }
+  #homesectleftone,
+  #homesectleftfour {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .HomeSectionTwoMain {
+    height: 300px;
+  }
+  #homesectthreetextarea {
+    padding-left: 10%;
+  }
+  .homesectoneleft {
+    padding-left: 9% !important;
+  }
+  .homsecttworight {
+    padding-left: 20%;
+  }
+}
+.homesectthreetextarea {
+  padding-left: 05%;
+  position: absolute;
+  z-index: 99999;
+  top: 27%;
+}
+.freelanone1 {
+  position: absolute;
+    z-index: 0;
+    right: 180px;
+    top: 20% !important;
+}
+.freelanone1 .SectionOneText{
+  font-size: 16px;
+}
+.freelanone1 button.homeSectionOneBtn.mt-4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.freelanone2 {
+  z-index: 0;
+}
+.freelanone2 p.welcome.createBorder.mb-0{
+  font-size: 16px;
+}
+.freelanone2 .homeSubHeading1{
+  max-width: 100% !important;
+  font-size: 35px;
+}
+.freelanone2 .createBorder{
+  width: 170px;
+}
+.freelanone2 p#limittextsect {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+}
+.freelanone2 a.homeSectionOneBtn.Links{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+.freelanone3{
+  z-index: 0;
+}
+.freelanone3 p.welcome.mb-0.createBorder{
+  font-size: 16px;
+  width: 170px;
+}
+.freelanone3 .homeSubHeading{
+  max-width: 100%;
+  font-size: 31px;
+}
+.freelanone3 button.homeSectionOneBtn.mt-4{
+  font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px
+}
+.freelanone3 .SectionOneText{
+  font-size: 16px;
+}
+.freelanone3 .IconSliderMain.carousel.slide.carousel-dark{
+  margin-top: 90px;
+}
+.IconSliderMain.homecarosel.carousel.slide.carousel-dark{
+  margin-top: 90px;
+}
+.row.m-0.HomeSectionFiveMain.freelanone4{
+  padding-top: 90px;
+}
+.freelanone4 .SectionOneText{
+  font-size: 18px;
+}
+.freelanone4 .HomeSectionTwoHeading{
+  font-size: 40px;
+}
+.freelanone4 .videothumbnail img{
+  width: 65%;
+  border-radius: 10px;
+}
+#homesectcontainer {
+  top: 27%;
+}
+.homesectoneleft {
+  padding-left: 7%;
+}
+.sectmobileimg {
+  display: none;
+}
+
+@media (min-width: 2100px) {
+  .homsecttworight {
+    margin-left: 50%;
+  }
+  #homesectone {
+    width: 100%;
+  }
+  #homesectcontainer {
+    left: 20%;
+  }
+  .Home_Footer_Main {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .homesectthreetextarea {
+    top: 40%;
+  }
+  #limittextsect {
+    max-width: 60%;
+  }
+}
+
+.carousel.carousel-slider .control-arrow,
+.carousel .carousel-status,
+.carousel .control-dots {
+  display: none;
+}
+.videothumbnail img {
+  width: 55%;
+}
+
+/* popup */
+.modal__bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+.modal__bg .modal__close {
+  color: white;
+  font-size: 38px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  cursor: pointer;
+}
+
+/* footer set */
+#footerabove {
+  margin-bottom: -250px;
+}

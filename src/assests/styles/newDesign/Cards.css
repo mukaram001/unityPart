@@ -1,0 +1,65 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1.3rem;
+    background: linear-gradient(263.2deg, #2F2359 -4.72%, #3E335F 94.44%);
+    backdrop-filter: blur(4px);
+    border: 1px solid #795FAB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: calc(25% - 0.8rem);
+}
+
+.card img{
+   height: 60%;
+    width: 60%;
+}
+
+.CoinCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    
+}
+.CoinCard .Group{
+    background-color: #291F4A;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.6rem;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.CoinCard .Group p{
+   color: #FFFF;
+   margin: 0;
+}
+.CoinCard .divider{
+    background-color: #291F4A;
+    height: 1px;
+    width: 100%;
+ }
+
+ .cardRectangle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(263.2deg, #2F2359 -4.72%, #3E335F 94.44%);
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    width: 45%;
+    cursor: pointer;
+ }
+ .cardRectangle img{
+    width: 40%;
+ }
